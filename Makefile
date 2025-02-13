@@ -1,2 +1,2 @@
 run-gui:
-	java -jar robocode-tankroyale-gui-0.30.0.jar
+	java -jar ./tankroyale/robocode-tankroyale-gui-0.30.0.jar
