@@ -2,12 +2,15 @@
 
 # Faggruppe -- Tank Royale 2025 
 
-Prerequisites: Java >= 11
+## Introduction
 
+[Tank Royale/Robocode](https://github.com/robocode-dev/tank-royale) is a programming game where the goal is to code a bot in the form of a tank to compete against other bots in a virtual battle arena.
 
+## Prerequisites
 
+Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version.
 
-https://github.com/robocode-dev/tank-royale
+## Getting Started 
 
 Bot API: https://robocode-dev.github.io/tank-royale/api/apis.html
 

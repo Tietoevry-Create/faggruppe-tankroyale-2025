@@ -1,16 +1,16 @@
 import dev.robocode.tankroyale.botapi.*;
 import dev.robocode.tankroyale.botapi.events.*;
 
-public class FooBot extends Bot {
+public class ExampleBot extends Bot {
 
     // The main method starts our bot
     public static void main(String[] args) {
-        new FooBot().start();
+        new ExampleBot().start();
     }
 
     // Constructor, which loads the bot config file
     FooBot() {
-        super(BotInfo.fromFile("FooBot.json"));
+        super(BotInfo.fromFile("ExampleBot.json"));
     }
 
     // Called when a new round is started -> initialize and do some movement
