@@ -4,23 +4,23 @@
 
 ## Introduction
 
-[Tank Royale (Robocode)](https://robocode-dev.github.io/tank-royale/articles/intro.html) is a programming game where the goal is to code a bot in the form of a tank to compete against other bots in a virtual battle arena.
+[Tank Royale (Robocode)](https://robocode-dev.github.io/tank-royale/articles/intro.html) is a programming game where the goal is to code a bot in the form of a tank to compete against other bots in a virtual battle arena. Once the match starts you will have no control over your bot and its performance relies solely on the quality of your implementation.
 
 ![Tank Royale!!!](images/robocode-battle-anim-BfI8cUPk.gif)
 
 ## Prerequisites
 
-Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version. Once the match starts you will have no control over your bot and its performance relies solely on the quality of your implementation.
+Robocode is running on the Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version.
 
 ## Getting Started
 
 In order for you to participate in the Tank Royale you need to do the following:
 
 1. Clone this repository
-2. Create a feature branch for your new bot
-3. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
-4. Modify the values inside the [YOUR_BOT_NAME].json file
-4. Create a PR to the `main` branch containing __only__ the files in your bot directory
+2. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
+3. Modify the values inside the `[YOUR_BOT_NAME].json` file
+4. Create a feature branch for your new bot
+5. Create a PR to the `main` branch containing __only__ the files in your bot directory
 
 ## Developing your bot
 
