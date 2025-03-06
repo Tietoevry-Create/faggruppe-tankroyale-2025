@@ -6,6 +6,8 @@
 
 [Tank Royale (Robocode)](https://robocode-dev.github.io/tank-royale/articles/intro.html) is a programming game where the goal is to code a bot in the form of a tank to compete against other bots in a virtual battle arena.
 
+![Tank Royale!!!](images/robocode-battle-anim-BfI8cUPk.gif)
+
 ## Prerequisites
 
 Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version.
@@ -21,12 +23,11 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 ## Developing your bot
 
-In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, tourning your turret and firing bullets.
-
+In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, turning your turret and firing bullets.
 
 ## Testing your bot locally
 
-Once you have created a functioning bot, you can easily test it locally by starting the GUI application (tankroyale/robocode-tankroyale-gui-0.30.0.jar). Then you are able to start a local match by navigating to **Battle > Start battle** and doing the steps in the below screenshot.
+Once you have created a functioning bot, you can easily test it locally by starting the GUI application (tankroyale/robocode-tankroyale-gui-0.30.0.jar). Then you are able to start a local match by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
 
 ![Testing your bot locally](images/running-locally.png)
 
