@@ -12,14 +12,23 @@ Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a m
 
 ## Getting Started
 
-In order for you to participate in the event you need to do the following:
+In order for you to participate in the Tank Royale you need to do the following:
 
 1. Clone this repository
-2. Create a new bot in the __tankroyale/competition-bots__ subdirectory (or modify the existing ExampleBot)
-  2.1 Foo
+2. Create a feature branch for your new bot
+3. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
+4. Create a PR to the `main` branch containing __only__ the files in your bot directory
+
+## Developing your bot
+
+In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, tourning your turret and firing bullets.
 
 
-Bot API: https://robocode-dev.github.io/tank-royale/api/apis.html
+## Testing your bot locally
+
+Once you have created a functioning bot, you can easily test it locally by starting the GUI application (tankroyale/robocode-tankroyale-gui-0.30.0.jar). Then you are able to start a local match by navigating to **Battle > Start battle** and doing the steps in the below screenshot.
+
+![Testing your bot locally](images/running-locally.png)
 
 Script for running the bot, i.e. a sh file (macOS and Linux) or cmd (Windows) file.
 JSON config file that describes the bot, and specify which game types it was designed for.

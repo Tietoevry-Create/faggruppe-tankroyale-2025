@@ -9,7 +9,7 @@ public class ExampleBot extends Bot {
     }
 
     // Constructor, which loads the bot config file
-    FooBot() {
+    ExampleBot() {
         super(BotInfo.fromFile("ExampleBot.json"));
     }
 
