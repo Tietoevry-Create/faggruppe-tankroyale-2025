@@ -15,8 +15,8 @@ Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a m
 In order for you to participate in the event you need to do the following:
 
 1. Clone this repository
-2.1 Create a new bot in the __tankroyale/competition-bots__ subdirectory (or modify the existing ExampleBot)
-2.2 Foo
+2. Create a new bot in the __tankroyale/competition-bots__ subdirectory (or modify the existing ExampleBot)
+  2.1 Foo
 
 
 Bot API: https://robocode-dev.github.io/tank-royale/api/apis.html
