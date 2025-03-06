@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
-Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version.
+Robocode is running on a Java Runtime Environment (JRE) and needs Java 11 as a minimum. Run `java -version` to check your current Java version. Once the match starts you will have no control over your bot and its performance relies solely on the quality of your implementation.
 
 ## Getting Started
 
@@ -19,6 +19,7 @@ In order for you to participate in the Tank Royale you need to do the following:
 1. Clone this repository
 2. Create a feature branch for your new bot
 3. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
+4. Modify the values inside the [YOUR_BOT_NAME].json file
 4. Create a PR to the `main` branch containing __only__ the files in your bot directory
 
 ## Developing your bot
@@ -27,11 +28,7 @@ In order for your bot to actually do anything cool you need to make use of the [
 
 ## Testing your bot locally
 
-Once you have created a functioning bot, you can easily test it locally by starting the GUI application (tankroyale/robocode-tankroyale-gui-0.30.0.jar). Then you are able to start a local match by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
+Once you have created a functioning bot, you can test it locally by starting the GUI application __(tankroyale/robocode-tankroyale-gui-0.30.0.jar)__. A local match can be started by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
 
 ![Testing your bot locally](images/running-locally.png)
 
-Script for running the bot, i.e. a sh file (macOS and Linux) or cmd (Windows) file.
-JSON config file that describes the bot, and specify which game types it was designed for.
-
-Utvikling / Development
