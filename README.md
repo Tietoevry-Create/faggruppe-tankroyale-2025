@@ -26,9 +26,15 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, turning your turret and firing bullets.
 
+### Some tips
+
+...
+
 ## Testing your bot locally
 
 Once you have created a functioning bot, you can test it locally by starting the GUI application __(tankroyale/robocode-tankroyale-gui-0.30.0.jar)__. A local match can be started by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
+
+TIP! Check the source code of some of the sample bots for inspiration if you are stuck. 
 
 ![Testing your bot locally](images/running-locally.png)
 
