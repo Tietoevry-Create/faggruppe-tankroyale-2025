@@ -18,7 +18,7 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 1. Clone this repository
 2. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
-3. Modify the values inside the `[YOUR_BOT_NAME].json` file
+3. Modify the values inside the `YOUR_BOT_NAME.json` file
 4. Create a feature branch for your new bot
 5. Create a PR to the `main` branch containing __only__ the files in your bot directory
 
@@ -26,9 +26,12 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, turning your turret and firing bullets.
 
-### Some tips
-
-...
+### Things to note
+- Avoid calling API methods like `fire()` and in general avoid CPU-intensive logic in your event handlers (why? read [here](https://robocode-dev.github.io/tank-royale/tutorial/beyond-the-basics.html#event-handlers))
+- The event handlers are only required to gain up-to-date information about your bot's information. Consider your event handlers as "sensors" of your bot.
+- Tank Royale uses the Cartesian coordinate system, which means that the (0, 0) coordinate is in the bottom-left corner of the arena.
+- Tank Royale uses the classic trigonometric functions for angles and directions. Hence, 0°/360° is east, 90° is north, 180° is west, and 270° is south. When turning a bot to the right, the angle moves in the clockwise direction.
+- Take a look at the [Physics](https://robocode-dev.github.io/tank-royale/articles/physics.html) section to learn how movement, rotation, bullets and collisions work
 
 ## Testing your bot locally
 
