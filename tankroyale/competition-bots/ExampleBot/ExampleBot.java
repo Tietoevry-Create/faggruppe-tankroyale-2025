@@ -37,5 +37,7 @@ public class ExampleBot extends Bot {
     public void onHitWall(HitWallEvent e) {
         // Hit a wall
     }
+
+    // todo: additional handlers exist.. see the docs!
 }
 
