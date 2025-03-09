@@ -1,1 +1,1 @@
-java -cp ../../lib/* FooBot.java >nul
+java -cp ../../lib/* ExampleBot.java >nul

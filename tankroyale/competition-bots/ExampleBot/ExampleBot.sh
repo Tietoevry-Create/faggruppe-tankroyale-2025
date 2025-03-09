@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ../../lib/* FooBot.java 
+java -cp ../../lib/* ExampleBot.java 

@@ -13,34 +13,29 @@ public class ExampleBot extends Bot {
         super(BotInfo.fromFile("ExampleBot.json"));
     }
 
-    // Called when a new round is started -> initialize and do some movement
     @Override
     public void run() {
+        // Do initial setup for each round
 
-        // Repeat while the bot is running
         while (isRunning()) {
-            forward(100);
-            turnGunRight(360);
-            back(100);
-            turnGunRight(360);
+            // Repeat while the bot is running
+            // should move tank, handle the gun and radar
         }
     }
 
-    // We saw another bot -> fire!
     @Override
     public void onScannedBot(ScannedBotEvent e) {
-        fire(1);
+        // Scanned an enemy bot
     }
 
-    // We were hit by a bullet -> turn perpendicular to the bullet
     @Override
     public void onHitByBullet(HitByBulletEvent e) {
+        // Hit by a bullet
+    }
 
-        // Calculate the bearing to the direction of the bullet
-        double bearing = calcBearing(e.getBullet().getDirection());
-
-        // Turn 90 degrees to the bullet direction based on the bearing
-        turnLeft(90 - bearing);
+    @Override
+    public void onHitWall(HitWallEvent e) {
+        // Hit a wall
     }
 }
 

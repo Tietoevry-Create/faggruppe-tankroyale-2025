@@ -1,0 +1,7 @@
+{
+  "name": "DiagonalBot",
+  "version": "1.0",
+  "authors": ["Øyvind Hauge"],
+  "description": "This is an example bot",
+  "platform": "JVM"
+}
