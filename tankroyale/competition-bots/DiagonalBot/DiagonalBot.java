@@ -17,10 +17,12 @@ public class DiagonalBot extends Bot {
     @Override
     public void run() {
 
+        turnRight(getDirection() - 0);
+        forward(getArenaWidth());
 
         // Repeat while the bot is running
         while (isRunning()) {
-            forward(399);
+//            forward(399);
 //            forward(100);
 //            turnGunRight(360);
 //            back(100);
