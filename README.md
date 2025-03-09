@@ -17,14 +17,14 @@ Robocode is running on the Java Runtime Environment (JRE) and needs Java 11 as a
 In order for you to participate in the Tank Royale you need to do the following:
 
 1. Clone this repository
-2. Create a new bot in the **tankroyale/competition-bots** subdirectory (or modify the existing ExampleBot, but make sure to rename the directory as well as all of the files)
+2. Copy and rename the ExampleBot in the **tankroyale/competition-bots** subdirectory. Note that the new directory as well as all of the files in it should have the exact same name. 
 3. Modify the values inside the `YOUR_BOT_NAME.json` file
 4. Create a feature branch for your new bot
 5. Create a PR to the `main` branch containing __only__ the files in your bot directory
 
 ## Developing your bot
 
-In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first, which contains methods for moving, turning your turret and firing bullets.
+In order for your bot to actually do anything cool you need to make use of the [Bot API](https://robocode.sourceforge.io/docs/robocode/). You should start by exploring the `Robot` class first (your bot is a subclass of this), which contains methods for moving, turning your turret and firing bullets.
 
 ### Things to note
 - Avoid calling API methods like `fire()` and in general avoid CPU-intensive logic in your event handlers (why? read [here](https://robocode-dev.github.io/tank-royale/tutorial/beyond-the-basics.html#event-handlers))

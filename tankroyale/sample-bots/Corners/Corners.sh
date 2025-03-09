@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ../lib/* Corners.java 
+java -cp ../../lib/* Corners.java 

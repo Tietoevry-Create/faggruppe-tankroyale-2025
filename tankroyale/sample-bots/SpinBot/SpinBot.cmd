@@ -1,1 +1,1 @@
-java -cp ../lib/* SpinBot.java >nul
+java -cp ../../lib/* SpinBot.java >nul

@@ -1,1 +1,1 @@
-java -cp ../lib/* Corners.java >nul
+java -cp ../../lib/* Corners.java >nul

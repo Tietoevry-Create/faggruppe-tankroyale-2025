@@ -1,1 +1,1 @@
-java -cp ../lib/* MyFirstDroid.java >nul
+java -cp ../../lib/* MyFirstDroid.java >nul

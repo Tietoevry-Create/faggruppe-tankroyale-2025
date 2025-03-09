@@ -1,1 +1,1 @@
-java -cp ../lib/* RamFire.java >nul
+java -cp ../../lib/* RamFire.java >nul

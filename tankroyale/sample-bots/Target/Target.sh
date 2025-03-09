@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ../lib/* Target.java 
+java -cp ../../lib/* Target.java 

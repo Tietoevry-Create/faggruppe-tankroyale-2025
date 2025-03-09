@@ -1,1 +1,1 @@
-java -cp ../lib/* Target.java >nul
+java -cp ../../lib/* Target.java >nul

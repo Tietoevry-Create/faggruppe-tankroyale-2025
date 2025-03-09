@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ../lib/* Fire.java 
+java -cp ../../lib/* Fire.java 

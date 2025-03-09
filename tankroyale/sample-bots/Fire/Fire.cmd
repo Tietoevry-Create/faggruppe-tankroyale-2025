@@ -1,1 +1,1 @@
-java -cp ../lib/* Fire.java >nul
+java -cp ../../lib/* Fire.java >nul
