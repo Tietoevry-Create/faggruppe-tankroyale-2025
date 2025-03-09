@@ -26,6 +26,8 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 Read the docs at _docs/javadoc/index.html_! You should start by exploring the `Robot` class (your bot is a subclass of this), which contains methods for moving the bot, turning the turret, firing bullets etc.
 
+TIP! Check the source code of some of the sample bots for inspiration if you are stuck. 
+
 ### Things to note
 - Avoid calling API methods like `fire()` and in general avoid CPU-intensive logic in your event handlers (why? read [here](https://robocode-dev.github.io/tank-royale/tutorial/beyond-the-basics.html#event-handlers))
 - The event handlers are only required to gain up-to-date information about your bot's information. Consider your event handlers as "sensors" of your bot.
@@ -35,9 +37,7 @@ Read the docs at _docs/javadoc/index.html_! You should start by exploring the `R
 
 ## Testing your bot locally
 
-Once you have created a functioning bot, you can test it locally by starting the GUI application __(tankroyale/robocode-tankroyale-gui-0.30.0.jar)__. A local match can be started by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
-
-TIP! Check the source code of some of the sample bots for inspiration if you are stuck. 
+You can test your bot locally by using the GUI application __(tankroyale/robocode-tankroyale-gui-0.30.0.jar)__. A local match can be started by navigating to **Battle > Start battle**, adding your bot as well as any number of sample bots to the match and then clicking *Start Battle* (see below screenshot).
 
 ![Testing your bot locally](images/running-locally.png)
 
