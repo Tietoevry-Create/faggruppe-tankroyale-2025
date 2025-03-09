@@ -29,6 +29,7 @@ Read the docs at _docs/javadoc/index.html_! You should start by exploring the `R
 TIP! Check the source code of some of the sample bots for inspiration if you are stuck. 
 
 ### Things to note
+- Firing your turret drains your own energy (health), as does colliding into walls and other bots
 - Avoid calling API methods like `fire()` and in general avoid CPU-intensive logic in your event handlers (why? read [here](https://robocode-dev.github.io/tank-royale/tutorial/beyond-the-basics.html#event-handlers))
 - The event handlers are only required to gain up-to-date information about your bot's information. Consider your event handlers as "sensors" of your bot.
 - Tank Royale uses the Cartesian coordinate system, which means that the (0, 0) coordinate is in the bottom-left corner of the arena.
