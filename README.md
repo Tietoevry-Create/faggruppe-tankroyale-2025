@@ -24,7 +24,7 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 ## Developing your bot
 
-Refer to the included documentation when developing your bot (open _docs/javadoc/index.html_ in a browser). You should start by exploring the `Robot` class (your bot is a subclass of this), which contains methods for moving the bot, turning the turret, firing bullets etc.
+Read the docs at _docs/javadoc/index.html_! You should start by exploring the `Robot` class (your bot is a subclass of this), which contains methods for moving the bot, turning the turret, firing bullets etc.
 
 ### Things to note
 - Avoid calling API methods like `fire()` and in general avoid CPU-intensive logic in your event handlers (why? read [here](https://robocode-dev.github.io/tank-royale/tutorial/beyond-the-basics.html#event-handlers))
