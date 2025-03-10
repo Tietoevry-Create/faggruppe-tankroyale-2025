@@ -7,6 +7,7 @@ public class EBot extends Bot
 {
     private boolean spinRight = false;
     private boolean spotted = false;
+    private int trackSpeed = 1;
     private long lastSpotTime = new Date().getTime();
     // The main method starts our bot
     public static void main(String[] args) {
@@ -22,10 +23,13 @@ public class EBot extends Bot
     public void run() {
         lastSpotTime = new Date().getTime();
         var maxWaitTime = 80;
+        trackSpeed = 1;
+        var scanSpeed = 10;
         spotted = false;
 
         while (isRunning()) {
-            rescan();
+            if (spotted)
+                rescan();
             var spotDelta = new Date().getTime() - lastSpotTime;
             if (spotted && spotDelta > maxWaitTime) {
                 spinRight = !spinRight;
@@ -36,12 +40,10 @@ public class EBot extends Bot
                 fire(1);
             }
 
-            var turnSpeed = 1 + 10 * Math.min(1, spotDelta / (maxWaitTime * 10));
+            var turnSpeed = trackSpeed + scanSpeed * Math.min(1, spotDelta / (maxWaitTime * 10));
             if (spinRight) turnGunRight(turnSpeed);
             else turnGunLeft(turnSpeed);
-            if (!spotted && spotDelta > maxWaitTime * 5 && Math.random() < 0.01) {
-                turnRight(90);
-                turnGunLeft(90);
+            if (!spotted && spotDelta > maxWaitTime * 5 && Math.random() < 0.04) {
                 if (Math.random() < 0.5) forward(100);
                 else back(100);
             }
@@ -61,7 +63,7 @@ public class EBot extends Bot
 
     @Override
     public void onHitWall(HitWallEvent e) {
-        // Hit a wall
+        turnRight(90);
     }
 
     // todo: additional handlers exist.. see the docs!
