@@ -1,0 +1,7 @@
+{
+  "name": "EBot",
+  "version": "1.0",
+  "authors": ["Eirik Sangolt"],
+  "description": "This is not an example bot",
+  "platform": "JVM"
+}
