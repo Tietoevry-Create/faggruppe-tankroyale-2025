@@ -1,0 +1,7 @@
+{
+  "name": "TheBestBot",
+  "version": "1.0",
+  "authors": ["Tomas Eriksen"],
+  "description": "This is the best bot",
+  "platform": "JVM"
+}
