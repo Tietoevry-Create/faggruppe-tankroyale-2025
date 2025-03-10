@@ -18,7 +18,7 @@ In order for you to participate in the Tank Royale you need to do the following:
 
 1. Clone this repository
 2. Copy and rename the ExampleBot in the **tankroyale/competition-bots** subdirectory. Note that the new directory as well as all of the files in it should have the exact same name. Make sure to also update the name inside the .sh/.cmd files.
-3. Modify the values inside the `YOUR_BOT_NAME.json` file
+3. Modify the values inside the `YourBotName.json` file
 4. Create a feature branch for your new bot
 5. Create a PR to the `main` branch containing __only__ the files in your bot directory
 
