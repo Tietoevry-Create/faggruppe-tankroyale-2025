@@ -1,0 +1,7 @@
+{
+  "name": "SlowpokeBot",
+  "version": "1.0",
+  "authors": ["Marina"],
+  "description": "This is a slowly edited example bot",
+  "platform": "JVM"
+}
