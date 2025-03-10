@@ -7,6 +7,13 @@ public class Sverretron extends Bot {
     // The main method starts our bot
     public static void main(String[] args) {
         new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
+        new Sverretron().start();
     }
 
 
@@ -22,8 +29,8 @@ public class Sverretron extends Bot {
         while (isRunning()) {
 
             for (int i = 0; i < 4; i++) {
-                forward(4);
-                turnRight(90);
+                forward(100);
+                turnRight(33);
                 
                 fire(1);
                 
