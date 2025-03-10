@@ -1,0 +1,8 @@
+{
+    "name": "Sverretron",
+    "version": "1.0",
+    "authors": ["Sverre Johnsen"],
+    "description": "This is a bot that tries to win",
+    "platform": "JVM"
+  }
+  
