@@ -1,0 +1,7 @@
+{
+  "name": "T-9000",
+  "version": "1.0",
+  "authors": ["Etkar Hemit"],
+  "description": "The T-9000 is a state-of-the-art battle tank equipped with advanced AI targeting systems, heavy armor, and powerful weaponry. It's designed to dominate the battlefield with unmatched precision and firepower.",
+  "platform": "JVM"
+}
