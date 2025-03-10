@@ -41,7 +41,7 @@ public class SlowpokeBot extends Bot {
     @Override
     public void onHitWall(HitWallEvent e) {
         // Bounce off!
-        reverseDirection();
+        //reverseDirection();
     }
     // We have hit another bot -> turn to face bot, fire hard, and ram it again!
     @Override
